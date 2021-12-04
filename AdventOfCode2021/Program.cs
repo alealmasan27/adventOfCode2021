@@ -13,3 +13,10 @@ Console.WriteLine("------------ Day 02 -----------");
 Console.WriteLine(day02.PartOne(commands));
 Console.WriteLine(day02.PartTwo(commands));
 Console.WriteLine("-------------------------------");
+
+var day03 = new Day03();
+var diagnostics = await day03.ReadDataAsync("Day03.txt");
+Console.WriteLine("------------ Day 03 -----------");
+Console.WriteLine(day03.PartOne(diagnostics));
+Console.WriteLine(day03.PartTwo(diagnostics));
+Console.WriteLine("-------------------------------");
